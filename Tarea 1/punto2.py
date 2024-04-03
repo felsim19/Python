@@ -1,0 +1,7 @@
+print("Bienvenido digite el nombre y el precio del producto")
+nombre_Objeto1=str(input("Digite el nombre del 1 producto "))
+precio_Objeto1=int(input("Digite el precio del 1 producto "))
+nombre_Objeto2=str(input("Digite el nombre del 2 producto "))
+precio_Objeto2=int(input("Digite el precio del 2 producto "))
+print("El primer objeto que se va a llevar es", nombre_Objeto1 + " y su precio es", precio_Objeto1)
+print("El segundo objeto que se va a llevar es", nombre_Objeto2 + " y su precio es", precio_Objeto2)

@@ -1,0 +1,7 @@
+presupuesto_total = int(input("Ingrese el presupesto del hospital"))
+cirugia = round(presupuesto_total * 0.40)
+traumatologia = round(presupuesto_total * 0.30)
+pediatria = round(presupuesto_total * 0.30)
+print(f"Dinero para Cirugía: {cirugia}")
+print(f"Dinero para Traumatología: {traumatologia}")
+print(f"Dinero para Pediatría: {pediatria}")
